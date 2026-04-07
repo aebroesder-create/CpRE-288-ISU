@@ -29,6 +29,7 @@
 // Forward declaration of the default fault handlers.
 //
 //*****************************************************************************
+extern void Timer3B_Handler(void);
 void ResetISR(void);
 static void NmiSR(void);
 static void FaultISR(void);
